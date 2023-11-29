@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - user: actions/checkout@v2
-      name: hello world
-      run: echo "hello world"
-      shell: bash
+      - name: hello world
+        run: echo "hello world"
+        shell: bash
