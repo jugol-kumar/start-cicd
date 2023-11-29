@@ -10,4 +10,9 @@ on:
 
 jobs:
   hello:
-    - echo "hello World"
+    runs-on: ubuntu-latest
+    steps:
+      - user: actions/checkout@v2
+      name: hello world
+      run: echo "hello world"
+      shell: bash
