@@ -10,4 +10,4 @@ on:
 
 jobs:
   hello:
-    echo "hello World"
+    - echo "hello World"
